@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+
+.container{
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding:30px;
+    border-radius:20px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.2);
+}
+
+h2{
+    color:white;
+}
+
+input{
+    padding:10px;
+    width:70%;
+    border:none;
+    border-radius:10px;
+    outline:none;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:10px;
+    background:#ff9800;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#e68900;
+    transform:scale(1.05);
+}
+
+#result{
+    margin-top:20px;
+    color:white;
+    font-size:18px;
+}
+
+#error{
+    color:#ffdddd;
+    margin-top:10px;
+}
+
+.weather-icon{
+    width:80px;
+}
+
+h3{
+    color:white;
+}
+
+.history-item{
+    background:white;
+    padding:6px 10px;
+    border-radius:8px;
+    margin:5px;
+    display:inline-block;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.history-item:hover{
+    background:#ff9800;
+    color:white;
+}

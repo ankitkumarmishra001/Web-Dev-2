@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colorful Weather Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>🌤 Weather Tracker</h2>
+
+    <input type="text" id="city" placeholder="Enter City">
+    <button onclick="getWeather()">Search</button>
+
+    <div id="result"></div>
+    <div id="error"></div>
+
+    <h3>Recent Searches</h3>
+
+    <button onclick="clearHistory()">🗑 Clear History</button>
+
+    <div id="history"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
